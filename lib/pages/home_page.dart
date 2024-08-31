@@ -8,7 +8,7 @@ import 'package:google_maps_navigation_tuts_o/widgets/directions_status_bar.dart
 import 'package:google_maps_navigation_tuts_o/utils/constants.dart';
 import 'package:google_maps_navigation_tuts_o/widgets/bottom_bar.dart';
 import 'package:google_maps_navigation_tuts_o/widgets/destination_box.dart';
-import 'package:google_maps_navigation_tuts_o/widgets/search_bar.dart';
+import 'package:google_maps_navigation_tuts_o/widgets/search_bar.dart' as search;
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -41,7 +41,7 @@ class HomePage extends StatelessWidget {
                 child: const Positioned(
                     top: 30,
                     left: 0,
-                    child: SearchBar(),
+                    child: search.SearchBar(),
                 ),
               ),
               Visibility(
